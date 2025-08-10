@@ -1,0 +1,13 @@
+package com.demo.dao;
+
+import java.util.List;
+
+import com.demo.model.Department;
+
+public interface DepartmentDao {
+	List<Department> getDepartment();
+	int addDepartment(Department department);
+	
+	List<Department> getDepartment1();
+	int updateDepartment(Department department);
+}

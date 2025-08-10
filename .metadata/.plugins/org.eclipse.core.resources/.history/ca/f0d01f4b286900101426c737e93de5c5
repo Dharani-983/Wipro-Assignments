@@ -1,0 +1,30 @@
+package com.demo.model;
+
+public class Department {
+	private int deptId;
+	private String deptName;
+	private String deptlocation;
+	public int getDeptId() {
+		return deptId;
+	}
+	public void setDeptId(int deptId) {
+		this.deptId = deptId;
+	}
+	public String getDeptName() {
+		return deptName;
+	}
+	public void setDeptName(String deptName) {
+		this.deptName = deptName;
+	}
+	public String getdeptLocation() {
+		return deptlocation;
+	}
+	public void setdeptLocation(String location) {
+		this.deptlocation = location;
+	}
+	@Override
+	public String toString() {
+		return "Department [deptId=" + deptId + ", deptName=" + deptName + ", location=" + deptlocation + "]";
+	}
+	
+}

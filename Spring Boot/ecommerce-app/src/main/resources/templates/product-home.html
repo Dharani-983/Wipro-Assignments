@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Welcome To Ecommerce App - Product Home</h1>
+<nav>
+	<a href="/add-product">Add Product</a>
+</nav>
+
+<div align="center">
+		<h1>Product List</h1>
+		<table border="1" cellpadding="10">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr th:each="product : ${productList}">
+					<td th:text="${product.id}">Product ID</td>
+					<td th:text="${product.name}">Product ID</td>
+					<td th:text="${product.price}">Product ID</td>
+					<td><a th:href="@{'/edit-product/'+${product.id}}">Edit</a>
+						&nbsp;&nbsp;&nbsp; 
+						<a th:href="@{'/delete-product/'+${product.id}}">Delete</a>
+					</td>
+
+				</tr>
+			</tbody>
+
+		</table>
+	</div>
+</body>
+</html>

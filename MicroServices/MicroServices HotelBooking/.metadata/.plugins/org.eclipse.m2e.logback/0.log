@@ -1,0 +1,996 @@
+2025-08-09 15:23:32,036 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-08-09 15:26:35,657 [Worker-22: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-09 15:26:39,180 [Worker-22: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api_gateway:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\pom.xml.
+2025-08-09 15:26:41,983 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api_gateway/src/main/java
+2025-08-09 15:26:41,987 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/main/resources
+2025-08-09 15:26:41,998 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/main/resources
+2025-08-09 15:26:42,016 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api_gateway/src/test/java
+2025-08-09 15:26:42,018 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/test/resources
+2025-08-09 15:26:44,565 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:26:44,620 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:26:44,630 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:26:47,705 [Worker-22: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 6.00 sec 
+2025-08-09 15:26:47,708 [Worker-22: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-09 15:26:49,004 [Worker-22: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api_gateway:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\pom.xml.
+2025-08-09 15:26:49,862 [Worker-22: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:eureka-server:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\pom.xml.
+2025-08-09 15:26:51,246 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api_gateway/src/main/java
+2025-08-09 15:26:51,247 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/main/resources
+2025-08-09 15:26:51,248 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/main/resources
+2025-08-09 15:26:51,248 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api_gateway/src/test/java
+2025-08-09 15:26:51,251 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/test/resources
+2025-08-09 15:26:51,907 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:26:51,931 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:26:51,937 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:26:52,618 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:26:52,659 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:26:52,680 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\src\test\resources
+2025-08-09 15:26:53,963 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:26:53,966 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:26:53,973 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:26:54,472 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2025-08-09 15:26:54,475 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-08-09 15:26:54,509 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-08-09 15:26:54,523 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2025-08-09 15:26:54,526 [Worker-22: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2025-08-09 15:26:55,323 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:26:55,327 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:26:55,334 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\src\test\resources
+2025-08-09 15:26:55,337 [Worker-19: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of eureka-server
+2025-08-09 15:26:55,338 [Worker-19: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for eureka-server
+2025-08-09 15:26:57,821 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:26:57,823 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:26:57,832 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\src\test\resources
+2025-08-09 15:26:59,031 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:26:59,035 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:26:59,053 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\src\test\resources
+2025-08-09 15:26:59,067 [Worker-22: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 2 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 7.00 sec 
+2025-08-09 15:30:50,083 [Worker-33: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-09 15:30:50,853 [Worker-33: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:customer-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\pom.xml.
+2025-08-09 15:30:52,408 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer-service/src/main/java
+2025-08-09 15:30:52,409 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/main/resources
+2025-08-09 15:30:52,418 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/main/resources
+2025-08-09 15:30:52,428 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer-service/src/test/java
+2025-08-09 15:30:52,429 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/test/resources
+2025-08-09 15:30:53,650 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:booking-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\pom.xml.
+2025-08-09 15:30:55,125 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:30:55,158 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:30:55,165 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 15:30:55,805 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:30:55,847 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:30:55,856 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 15:30:56,522 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-09 15:30:57,843 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:30:57,871 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:30:57,877 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-09 15:30:59,028 [Worker-34: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-09 15:30:59,040 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:30:59,044 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:30:59,050 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 15:30:59,377 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:30:59,379 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:30:59,384 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 15:30:59,560 [Worker-33: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 7.00 sec 
+2025-08-09 15:30:59,588 [Worker-33: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-09 15:31:00,185 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:room-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\pom.xml.
+2025-08-09 15:31:01,442 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:31:01,470 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:01,478 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-09 15:31:03,550 [Worker-33: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:booking-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\pom.xml.
+2025-08-09 15:31:04,280 [Worker-33: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:room-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\pom.xml.
+2025-08-09 15:31:04,464 [Worker-33: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-09 15:31:04,660 [Worker-33: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:customer-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\pom.xml.
+2025-08-09 15:31:06,588 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-service/src/main/java
+2025-08-09 15:31:06,589 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-service/src/main/resources
+2025-08-09 15:31:06,597 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-service/src/main/resources
+2025-08-09 15:31:06,608 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-service/src/test/java
+2025-08-09 15:31:06,610 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-service/src/test/resources
+2025-08-09 15:31:07,288 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:31:07,309 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:07,317 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 15:31:07,318 [Worker-27: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of booking-service
+2025-08-09 15:31:07,318 [Worker-27: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for booking-service
+2025-08-09 15:31:08,309 [Worker-31: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-09 15:31:10,265 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /room-service/src/main/java
+2025-08-09 15:31:10,266 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /room-service/src/main/resources
+2025-08-09 15:31:10,289 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /room-service/src/main/resources
+2025-08-09 15:31:10,311 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /room-service/src/test/java
+2025-08-09 15:31:10,312 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /room-service/src/test/resources
+2025-08-09 15:31:10,885 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:31:10,887 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:10,893 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 15:31:11,332 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:31:11,358 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:11,367 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-09 15:31:11,367 [Worker-31: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of room-service
+2025-08-09 15:31:11,368 [Worker-31: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for room-service
+2025-08-09 15:31:13,120 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hotel-service/src/main/java
+2025-08-09 15:31:13,121 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hotel-service/src/main/resources
+2025-08-09 15:31:13,131 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hotel-service/src/main/resources
+2025-08-09 15:31:13,141 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hotel-service/src/test/java
+2025-08-09 15:31:13,143 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hotel-service/src/test/resources
+2025-08-09 15:31:13,872 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:31:13,892 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:13,899 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-09 15:31:13,901 [Worker-32: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hotel-service
+2025-08-09 15:31:13,901 [Worker-32: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hotel-service
+2025-08-09 15:31:14,216 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:31:14,223 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:14,228 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-09 15:31:15,247 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer-service/src/main/java
+2025-08-09 15:31:15,248 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/main/resources
+2025-08-09 15:31:15,248 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/main/resources
+2025-08-09 15:31:15,250 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer-service/src/test/java
+2025-08-09 15:31:15,251 [Worker-33: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/test/resources
+2025-08-09 15:31:15,550 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:15,552 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:15,558 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 15:31:15,738 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:31:15,740 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:15,746 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-09 15:31:15,972 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:15,974 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:15,979 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-09 15:31:16,821 [Worker-33: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 4 poms: local refresh takes 0.00 sec, refresh facades takes 6.00 sec, update config takes 10.00 sec 
+2025-08-09 15:31:17,044 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:17,045 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:31:17,049 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 15:32:24,579 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:32:24,589 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:32:24,592 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\src\test\resources
+2025-08-09 15:33:07,589 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:33:07,595 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:33:07,599 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:33:34,070 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:33:34,076 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:33:34,078 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:35:32,093 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:35:32,104 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:35:32,115 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\src\test\resources
+2025-08-09 15:35:40,677 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:35:40,686 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:35:40,690 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:38:10,529 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:38:10,539 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:38:10,560 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:40:41,351 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-09 15:41:47,640 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:41:47,663 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:41:47,670 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:42:42,752 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api_gateway:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\pom.xml.
+2025-08-09 15:42:44,469 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:42:44,471 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:42:44,476 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:42:44,476 [Worker-8: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of api_gateway
+2025-08-09 15:42:44,477 [Worker-8: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for api_gateway
+2025-08-09 15:42:45,475 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:42:45,519 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:42:45,526 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:43:00,988 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:43:00,998 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:43:01,003 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-09 15:45:46,121 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:45:46,152 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:45:46,167 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 15:45:58,957 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:45:58,976 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:45:59,006 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 15:46:15,802 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:46:15,810 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:46:15,816 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 15:46:43,900 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:46:43,913 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:46:43,919 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 15:52:00,680 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:52:00,690 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:52:00,694 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 15:52:05,490 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:52:05,495 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:52:05,500 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 15:52:44,544 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:52:44,567 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:52:44,571 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 15:53:54,388 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 15:53:54,394 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 15:53:54,396 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 16:01:43,491 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:01:43,499 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:01:43,503 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 16:01:46,758 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:01:46,767 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:01:46,772 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 16:13:21,480 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:13:21,487 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:13:21,492 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 16:13:26,556 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:13:26,563 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:13:26,566 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 16:15:08,521 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:15:08,528 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:15:08,532 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 16:17:13,965 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:17:13,973 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:17:13,976 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 16:18:53,518 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:18:53,527 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:18:53,531 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-09 16:21:49,957 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:21:49,981 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:21:49,989 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 16:22:06,755 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:22:06,766 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:22:06,775 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 16:22:35,488 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:22:35,497 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:22:35,505 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 16:23:09,797 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:23:09,811 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:23:09,824 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 16:23:55,390 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:23:55,395 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:23:55,398 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 16:27:28,389 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:27:28,396 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:27:28,399 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 16:29:10,313 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:29:10,322 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:29:10,326 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 16:30:54,355 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:30:54,363 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:30:54,365 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 16:30:57,878 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:30:57,884 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:30:57,887 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-09 16:31:15,444 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-09 16:31:15,461 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-09 16:31:15,463 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 11:20:15,533 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-10 11:20:59,638 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:20:59,663 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:20:59,668 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 11:22:06,291 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:22:06,333 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:22:06,341 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:22:28,301 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:22:28,312 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:22:28,317 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:22:53,464 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:22:53,475 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:22:53,482 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:23:16,776 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:23:16,792 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:23:16,798 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:27:05,328 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:27:05,339 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:27:05,343 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:27:20,451 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:27:20,457 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:27:20,460 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:27:40,053 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:27:40,059 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:27:40,062 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:28:33,452 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:28:33,477 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:28:33,484 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:34:58,266 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:34:58,272 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:34:58,275 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:37:49,998 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:37:50,005 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:37:50,010 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:37:59,489 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:37:59,496 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:37:59,500 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:38:32,893 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:38:32,899 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:38:32,903 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:39:32,643 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:39:32,649 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:39:32,652 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 11:40:55,433 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:40:55,478 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:40:55,487 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 11:41:11,878 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:41:11,886 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:41:11,894 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 11:41:28,273 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:41:28,287 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:41:28,290 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 11:41:45,150 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:41:45,159 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:41:45,166 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 11:53:23,840 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:53:23,863 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:53:23,868 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 11:53:27,822 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:53:27,870 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:53:27,880 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 11:53:33,788 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:53:33,795 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:53:33,798 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 11:54:10,294 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:54:10,299 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:54:10,302 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 11:55:10,654 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:55:10,661 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:55:10,665 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 11:58:04,222 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:58:04,228 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:58:04,231 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 11:58:43,880 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 11:58:43,886 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 11:58:43,889 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 12:04:40,975 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:04:40,983 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:04:40,987 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 12:07:11,938 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:07:11,944 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:07:11,947 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 12:07:52,897 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:07:52,904 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:07:52,908 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 12:08:05,240 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:08:05,245 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:08:05,248 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 12:09:43,881 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:09:43,902 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:09:43,905 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 12:10:16,028 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:10:16,037 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:10:16,040 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 12:10:48,661 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:10:48,669 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:10:48,671 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 12:11:35,582 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:11:35,586 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:11:35,589 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 12:11:48,339 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:11:48,343 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:11:48,346 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 12:11:59,377 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:11:59,382 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:11:59,385 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 12:14:38,725 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:14:38,733 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:14:38,737 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 12:14:47,870 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:14:47,875 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:14:47,878 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 12:16:42,774 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:16:42,800 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:16:42,807 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 12:17:00,068 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:17:00,073 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:17:00,075 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 12:17:06,396 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:17:06,405 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:17:06,410 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 12:17:32,394 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 12:17:32,401 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 12:17:32,403 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 15:32:55,832 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-08-10 15:39:25,434 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 15:39:25,476 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 15:39:25,484 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 15:43:18,821 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 15:43:18,839 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 15:43:18,848 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 15:45:38,615 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-10 15:45:39,302 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier  to /booking-service/target/classes
+2025-08-10 15:45:39,527 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier  to /booking-service/target/classes
+2025-08-10 15:45:40,337 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 15:45:40,362 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 15:45:40,368 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 15:45:40,368 [Worker-34: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hotel-service
+2025-08-10 15:45:40,373 [Worker-34: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hotel-service
+2025-08-10 15:45:41,609 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 15:45:41,620 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 15:45:41,623 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 15:46:12,313 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 15:46:12,321 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 15:46:12,324 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 15:46:51,715 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 15:46:51,722 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 15:46:51,725 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 15:47:59,163 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 15:47:59,182 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 15:47:59,185 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 15:56:19,782 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 15:56:19,789 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 15:56:19,793 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 16:05:26,126 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:05:26,135 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:05:26,139 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 16:05:50,865 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:05:50,871 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:05:50,874 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 16:06:27,776 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:06:27,782 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:06:27,785 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 16:09:04,342 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:09:04,353 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:09:04,358 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 16:10:42,636 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:10:42,642 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:10:42,645 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 16:13:27,256 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:13:27,267 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:13:27,271 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 16:14:39,326 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:14:39,335 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:14:39,339 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 16:15:35,130 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:15:35,135 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:15:35,138 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 16:25:06,861 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:25:06,868 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:25:06,871 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 16:25:16,618 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:25:16,623 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:25:16,626 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 16:28:18,368 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:28:18,374 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:28:18,377 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 16:40:16,037 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:40:16,044 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:40:16,047 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 16:42:11,012 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:42:11,017 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:42:11,020 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 16:52:44,803 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:52:44,808 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:52:44,811 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 16:53:22,945 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 16:53:22,950 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 16:53:22,954 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:00:33,750 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:00:33,757 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:00:33,764 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:01:29,159 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:01:29,165 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:01:29,169 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:02:20,379 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:02:20,384 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:02:20,387 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:03:17,233 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:booking-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\pom.xml.
+2025-08-10 17:03:18,532 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.3.0/spring-cloud-starter-openfeign-4.3.0.pom
+2025-08-10 17:03:18,579 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.3.0/spring-cloud-starter-openfeign-4.3.0.pom
+2025-08-10 17:03:18,612 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign/4.3.0/spring-cloud-openfeign-4.3.0.pom
+2025-08-10 17:03:18,665 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign/4.3.0/spring-cloud-openfeign-4.3.0.pom
+2025-08-10 17:03:18,698 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.3.0/spring-cloud-openfeign-core-4.3.0.pom
+2025-08-10 17:03:18,745 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.3.0/spring-cloud-openfeign-core-4.3.0.pom
+2025-08-10 17:03:18,800 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.6/feign-form-spring-13.6.pom
+2025-08-10 17:03:18,836 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.6/feign-form-spring-13.6.pom
+2025-08-10 17:03:18,863 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/parent/13.6/parent-13.6.pom
+2025-08-10 17:03:18,924 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/parent/13.6/parent-13.6.pom
+2025-08-10 17:03:18,968 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.pom
+2025-08-10 17:03:19,009 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.pom
+2025-08-10 17:03:19,047 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/78/commons-parent-78.pom
+2025-08-10 17:03:19,104 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/78/commons-parent-78.pom
+2025-08-10 17:03:19,152 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.2/junit-bom-5.11.2.pom
+2025-08-10 17:03:19,187 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.2/junit-bom-5.11.2.pom
+2025-08-10 17:03:19,220 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.6/feign-form-13.6.pom
+2025-08-10 17:03:19,249 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.6/feign-form-13.6.pom
+2025-08-10 17:03:19,275 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.6/feign-core-13.6.pom
+2025-08-10 17:03:19,302 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.6/feign-core-13.6.pom
+2025-08-10 17:03:19,326 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.pom
+2025-08-10 17:03:19,373 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.pom
+2025-08-10 17:03:19,428 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.6/feign-slf4j-13.6.pom
+2025-08-10 17:03:19,472 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.6/feign-slf4j-13.6.pom
+2025-08-10 17:03:19,783 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.3.0/spring-cloud-starter-openfeign-4.3.0.jar
+2025-08-10 17:03:19,849 [Worker-70: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.3.0/spring-cloud-starter-openfeign-4.3.0.jar
+2025-08-10 17:03:19,869 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.jar
+2025-08-10 17:03:19,914 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.6/feign-form-13.6.jar
+2025-08-10 17:03:19,920 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.3.0/spring-cloud-openfeign-core-4.3.0.jar
+2025-08-10 17:03:19,924 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar
+2025-08-10 17:03:19,932 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.6/feign-form-spring-13.6.jar
+2025-08-10 17:03:19,968 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.jar
+2025-08-10 17:03:19,991 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.6/feign-core-13.6.jar
+2025-08-10 17:03:20,032 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar
+2025-08-10 17:03:20,053 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.6/feign-slf4j-13.6.jar
+2025-08-10 17:03:20,082 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.3.0/spring-cloud-openfeign-core-4.3.0.jar
+2025-08-10 17:03:20,162 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.6/feign-core-13.6.jar
+2025-08-10 17:03:20,233 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.6/feign-slf4j-13.6.jar
+2025-08-10 17:03:20,380 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.6/feign-form-spring-13.6.jar
+2025-08-10 17:03:20,578 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.6/feign-form-13.6.jar
+2025-08-10 17:03:21,159 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:eureka-server:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\pom.xml.
+2025-08-10 17:03:21,953 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:room-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\pom.xml.
+2025-08-10 17:03:22,575 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:customer-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\pom.xml.
+2025-08-10 17:03:23,123 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api_gateway:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\pom.xml.
+2025-08-10 17:03:23,779 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-10 17:03:23,979 [Worker-70: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier  to /booking-service/target/classes
+2025-08-10 17:03:27,118 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.3.0/spring-cloud-starter-openfeign-4.3.0-sources.jar
+2025-08-10 17:03:27,127 [Worker-69: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-openfeign:4.3.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-08-10 17:03:27,223 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.3.0/spring-cloud-openfeign-core-4.3.0-sources.jar
+2025-08-10 17:03:27,321 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.3.0/spring-cloud-openfeign-core-4.3.0-sources.jar
+2025-08-10 17:03:27,328 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-openfeign-core:4.3.0
+2025-08-10 17:03:27,396 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.6/feign-form-spring-13.6-sources.jar
+2025-08-10 17:03:27,470 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:03:27,472 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:03:27,482 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:03:27,528 [Worker-70: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of booking-service
+2025-08-10 17:03:27,528 [Worker-70: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for booking-service
+2025-08-10 17:03:28,124 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:03:28,128 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.6/feign-form-spring-13.6-sources.jar
+2025-08-10 17:03:28,134 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-form-spring:13.6
+2025-08-10 17:03:28,167 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:03:28,173 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:03:28,208 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0-sources.jar
+2025-08-10 17:03:28,353 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0-sources.jar
+2025-08-10 17:03:28,360 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-text:1.13.0
+2025-08-10 17:03:28,442 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.6/feign-form-13.6-sources.jar
+2025-08-10 17:03:28,730 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:03:28,739 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:03:28,745 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 17:03:29,542 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.6/feign-form-13.6-sources.jar
+2025-08-10 17:03:29,551 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-form:13.6
+2025-08-10 17:03:29,625 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5-sources.jar
+2025-08-10 17:03:29,762 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5-sources.jar
+2025-08-10 17:03:29,770 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.5
+2025-08-10 17:03:29,850 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.6/feign-core-13.6-sources.jar
+2025-08-10 17:03:29,937 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.6/feign-core-13.6-sources.jar
+2025-08-10 17:03:29,944 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-core:13.6
+2025-08-10 17:03:30,017 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.6/feign-slf4j-13.6-sources.jar
+2025-08-10 17:03:30,166 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.6/feign-slf4j-13.6-sources.jar
+2025-08-10 17:03:30,175 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-slf4j:13.6
+2025-08-10 17:03:30,462 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.3.0/spring-cloud-starter-openfeign-4.3.0-javadoc.jar
+2025-08-10 17:03:30,467 [Worker-69: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-openfeign:4.3.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-08-10 17:03:30,479 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-openfeign-core:4.3.0
+2025-08-10 17:03:30,488 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-form-spring:13.6
+2025-08-10 17:03:30,496 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-text:1.13.0
+2025-08-10 17:03:30,504 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-form:13.6
+2025-08-10 17:03:30,513 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.5
+2025-08-10 17:03:30,520 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-core:13.6
+2025-08-10 17:03:30,528 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-slf4j:13.6
+2025-08-10 17:03:37,703 [Worker-73: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:customer-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\pom.xml.
+2025-08-10 17:03:38,989 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:03:38,990 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:03:38,997 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 17:03:38,997 [Worker-73: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of customer-service
+2025-08-10 17:03:38,997 [Worker-73: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for customer-service
+2025-08-10 17:03:39,454 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:03:39,483 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:03:39,489 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 17:06:37,889 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:06:37,895 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:06:37,898 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:06:45,749 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:06:45,755 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:06:45,758 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:07:15,872 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:07:15,882 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:07:15,885 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:09:01,999 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:09:02,005 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:09:02,007 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 17:09:08,467 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:09:08,474 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:09:08,477 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 17:09:15,374 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:09:15,381 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:09:15,384 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 17:10:35,137 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:10:35,144 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:10:35,146 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 17:11:39,949 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:11:39,954 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:11:39,957 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:12:11,349 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:12:11,355 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:12:11,357 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 17:12:30,173 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:12:30,178 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:12:30,181 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 17:16:39,601 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:16:39,606 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:16:39,609 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:18:20,402 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:18:20,406 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:18:20,409 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:18:24,229 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:18:24,235 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:18:24,239 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:18:56,171 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:18:56,178 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:18:56,181 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 17:19:02,807 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:19:02,821 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:19:02,823 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 17:19:06,569 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:19:06,576 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:19:06,578 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 17:19:34,226 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:19:34,232 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:19:34,234 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 17:20:24,588 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:20:24,595 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:20:24,602 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 17:20:47,627 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:20:47,631 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:20:47,637 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 17:22:45,985 [Worker-77: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:room-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\pom.xml.
+2025-08-10 17:22:47,514 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:22:47,515 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:22:47,520 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 17:22:47,520 [Worker-77: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of room-service
+2025-08-10 17:22:47,520 [Worker-77: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for room-service
+2025-08-10 17:22:48,717 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:22:48,743 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:22:48,749 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 17:23:07,920 [Worker-76: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-10 17:23:08,696 [Worker-76: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier  to /booking-service/target/classes
+2025-08-10 17:23:08,833 [Worker-76: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier  to /booking-service/target/classes
+2025-08-10 17:23:09,667 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:23:09,668 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:23:09,674 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 17:23:09,675 [Worker-76: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hotel-service
+2025-08-10 17:23:09,675 [Worker-76: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hotel-service
+2025-08-10 17:23:10,042 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:23:10,066 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:23:10,072 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 17:23:15,637 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:23:15,642 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:23:15,644 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 17:29:39,661 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:29:39,669 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:29:39,672 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 17:32:35,196 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:32:35,203 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:32:35,205 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 17:49:38,009 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 17:49:38,016 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 17:49:38,019 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 18:05:47,046 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:05:47,052 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:05:47,055 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 18:12:38,208 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:12:38,218 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:12:38,223 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 18:13:13,986 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:13:13,990 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:13:13,993 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 18:15:31,061 [Worker-80: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 18:15:31,291 [Worker-80: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 18:15:31,493 [Worker-80: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 18:18:02,106 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:18:02,117 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:18:02,122 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 18:24:59,187 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-10 18:25:01,824 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api_gateway:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\pom.xml.
+2025-08-10 18:25:02,782 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:booking-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\pom.xml.
+2025-08-10 18:25:03,114 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:customer-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\pom.xml.
+2025-08-10 18:25:03,293 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:eureka-server:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\pom.xml.
+2025-08-10 18:25:03,653 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-10 18:25:03,874 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier  to /booking-service/target/classes
+2025-08-10 18:25:03,958 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:room-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\pom.xml.
+2025-08-10 18:25:08,355 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api_gateway/src/main/java
+2025-08-10 18:25:08,363 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/main/resources
+2025-08-10 18:25:08,364 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/main/resources
+2025-08-10 18:25:08,365 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api_gateway/src/test/java
+2025-08-10 18:25:08,367 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/test/resources
+2025-08-10 18:25:10,220 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-service/src/main/java
+2025-08-10 18:25:10,221 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-service/src/main/resources
+2025-08-10 18:25:10,221 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-service/src/main/resources
+2025-08-10 18:25:10,222 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-service/src/test/java
+2025-08-10 18:25:10,222 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-service/src/test/resources
+2025-08-10 18:25:12,290 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer-service/src/main/java
+2025-08-10 18:25:12,291 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/main/resources
+2025-08-10 18:25:12,292 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/main/resources
+2025-08-10 18:25:12,292 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer-service/src/test/java
+2025-08-10 18:25:12,293 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/test/resources
+2025-08-10 18:25:13,218 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2025-08-10 18:25:13,219 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-08-10 18:25:13,221 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-08-10 18:25:13,221 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2025-08-10 18:25:13,222 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2025-08-10 18:25:14,699 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hotel-service/src/main/java
+2025-08-10 18:25:14,701 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hotel-service/src/main/resources
+2025-08-10 18:25:14,702 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hotel-service/src/main/resources
+2025-08-10 18:25:14,703 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hotel-service/src/test/java
+2025-08-10 18:25:14,705 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hotel-service/src/test/resources
+2025-08-10 18:25:15,507 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /room-service/src/main/java
+2025-08-10 18:25:15,508 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /room-service/src/main/resources
+2025-08-10 18:25:15,509 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /room-service/src/main/resources
+2025-08-10 18:25:15,510 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /room-service/src/test/java
+2025-08-10 18:25:15,511 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /room-service/src/test/resources
+2025-08-10 18:25:16,263 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for api_gateway
+2025-08-10 18:25:16,319 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for booking-service
+2025-08-10 18:25:16,353 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for customer-service
+2025-08-10 18:25:16,391 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for eureka-server
+2025-08-10 18:25:16,431 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hotel-service
+2025-08-10 18:25:16,466 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for room-service
+2025-08-10 18:25:16,488 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 6 poms: local refresh takes 0.00 sec, refresh facades takes 8.00 sec, update config takes 7.00 sec 
+2025-08-10 18:25:16,876 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:25:16,903 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:25:16,910 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-10 18:25:16,911 [Worker-81: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of api_gateway
+2025-08-10 18:25:16,911 [Worker-81: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for api_gateway
+2025-08-10 18:25:17,544 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:25:17,575 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:25:17,584 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 18:25:17,584 [Worker-78: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of booking-service
+2025-08-10 18:25:17,584 [Worker-78: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for booking-service
+2025-08-10 18:25:18,229 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:25:18,264 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:25:18,274 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 18:25:18,275 [Worker-79: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of customer-service
+2025-08-10 18:25:18,275 [Worker-79: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for customer-service
+2025-08-10 18:25:18,886 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:25:18,970 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:25:18,982 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\src\test\resources
+2025-08-10 18:25:18,983 [Worker-74: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of eureka-server
+2025-08-10 18:25:18,983 [Worker-74: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for eureka-server
+2025-08-10 18:25:19,527 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:25:19,563 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:25:19,569 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 18:25:19,570 [Worker-74: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hotel-service
+2025-08-10 18:25:19,570 [Worker-74: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hotel-service
+2025-08-10 18:25:19,986 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:25:20,022 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:25:20,030 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 18:25:20,030 [Worker-78: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of room-service
+2025-08-10 18:25:20,030 [Worker-78: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for room-service
+2025-08-10 18:28:44,347 [Worker-74: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 18:28:44,549 [Worker-74: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 18:28:44,748 [Worker-74: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 18:30:13,456 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:30:13,468 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:30:13,470 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 18:30:19,497 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:30:19,501 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:30:19,503 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 18:30:46,172 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:30:46,178 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:30:46,181 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-10 18:32:19,615 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:32:19,622 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:32:19,625 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 18:32:36,849 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:32:36,854 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:32:36,856 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 18:35:55,814 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:35:55,814 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:35:55,814 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 18:38:15,060 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:38:15,067 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:38:15,070 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-10 18:38:56,974 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:38:56,982 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:38:56,985 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 18:39:37,740 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:39:37,745 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:39:37,747 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 18:39:56,588 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:39:56,592 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:39:56,594 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 18:40:23,526 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:40:23,530 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:40:23,532 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 18:40:38,198 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:40:38,213 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:40:38,216 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 18:40:53,010 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:40:53,014 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:40:53,017 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 18:41:35,976 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-10 18:41:38,048 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api_gateway:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\pom.xml.
+2025-08-10 18:41:38,623 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:booking-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\pom.xml.
+2025-08-10 18:41:38,828 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:customer-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\pom.xml.
+2025-08-10 18:41:38,966 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:eureka-server:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\pom.xml.
+2025-08-10 18:41:39,182 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-10 18:41:39,299 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier  to /booking-service/target/classes
+2025-08-10 18:41:39,354 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:room-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\pom.xml.
+2025-08-10 18:41:41,407 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api_gateway/src/main/java
+2025-08-10 18:41:41,408 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/main/resources
+2025-08-10 18:41:41,408 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/main/resources
+2025-08-10 18:41:41,408 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api_gateway/src/test/java
+2025-08-10 18:41:41,409 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api_gateway/src/test/resources
+2025-08-10 18:41:41,827 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-service/src/main/java
+2025-08-10 18:41:41,827 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-service/src/main/resources
+2025-08-10 18:41:41,829 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-service/src/main/resources
+2025-08-10 18:41:41,829 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /booking-service/src/test/java
+2025-08-10 18:41:41,829 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /booking-service/src/test/resources
+2025-08-10 18:41:42,181 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer-service/src/main/java
+2025-08-10 18:41:42,182 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/main/resources
+2025-08-10 18:41:42,183 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/main/resources
+2025-08-10 18:41:42,183 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /customer-service/src/test/java
+2025-08-10 18:41:42,184 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /customer-service/src/test/resources
+2025-08-10 18:41:42,532 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2025-08-10 18:41:42,532 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-08-10 18:41:42,533 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2025-08-10 18:41:42,533 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2025-08-10 18:41:42,533 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2025-08-10 18:41:43,495 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hotel-service/src/main/java
+2025-08-10 18:41:43,496 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hotel-service/src/main/resources
+2025-08-10 18:41:43,496 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hotel-service/src/main/resources
+2025-08-10 18:41:43,497 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hotel-service/src/test/java
+2025-08-10 18:41:43,497 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hotel-service/src/test/resources
+2025-08-10 18:41:43,846 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /room-service/src/main/java
+2025-08-10 18:41:43,847 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /room-service/src/main/resources
+2025-08-10 18:41:43,847 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /room-service/src/main/resources
+2025-08-10 18:41:43,847 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /room-service/src/test/java
+2025-08-10 18:41:43,848 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /room-service/src/test/resources
+2025-08-10 18:41:44,225 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for api_gateway
+2025-08-10 18:41:44,262 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for booking-service
+2025-08-10 18:41:44,309 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for customer-service
+2025-08-10 18:41:44,345 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for eureka-server
+2025-08-10 18:41:44,374 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hotel-service
+2025-08-10 18:41:44,404 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for room-service
+2025-08-10 18:41:44,422 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 6 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 2.00 sec 
+2025-08-10 18:41:44,739 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:41:44,773 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:41:44,780 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-10 18:41:44,780 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of api_gateway
+2025-08-10 18:41:44,780 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for api_gateway
+2025-08-10 18:41:45,098 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:41:45,124 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:41:45,130 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 18:41:45,130 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of booking-service
+2025-08-10 18:41:45,130 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for booking-service
+2025-08-10 18:41:45,399 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:41:45,420 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:41:45,426 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 18:41:45,426 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of customer-service
+2025-08-10 18:41:45,426 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for customer-service
+2025-08-10 18:41:45,669 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:41:45,693 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:41:45,700 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\eureka-server\eureka-server\src\test\resources
+2025-08-10 18:41:45,700 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of eureka-server
+2025-08-10 18:41:45,700 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for eureka-server
+2025-08-10 18:41:45,982 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:41:46,007 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:41:46,013 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 18:41:46,013 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hotel-service
+2025-08-10 18:41:46,013 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hotel-service
+2025-08-10 18:41:46,488 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:41:46,518 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:41:46,525 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 18:41:46,526 [Worker-83: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of room-service
+2025-08-10 18:41:46,526 [Worker-83: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for room-service
+2025-08-10 18:46:34,379 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:46:34,386 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:46:34,389 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-10 18:46:39,400 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 18:46:39,405 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 18:46:39,407 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\api_gateway\api_gateway\src\test\resources
+2025-08-10 18:51:24,419 [Worker-84: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 18:51:24,623 [Worker-84: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 18:51:24,826 [Worker-84: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 19:00:12,651 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:00:12,666 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:00:12,666 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 19:05:20,111 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:05:20,115 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:05:20,117 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 19:14:48,606 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:14:48,612 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:14:48,614 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 19:15:30,311 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:15:30,315 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:15:30,317 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 19:23:23,113 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:23:23,121 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:23:23,124 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 19:25:27,851 [Worker-64: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:booking-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\pom.xml.
+2025-08-10 19:25:28,834 [Worker-64: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-10 19:25:28,987 [Worker-64: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier  to /booking-service/target/classes
+2025-08-10 19:25:30,270 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:25:30,271 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:25:30,276 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 19:25:30,276 [Worker-64: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of booking-service
+2025-08-10 19:25:30,276 [Worker-64: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for booking-service
+2025-08-10 19:25:31,262 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:25:31,279 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:25:31,282 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 19:25:31,330 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:25:31,336 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:25:31,340 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 19:30:59,014 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:30:59,024 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:30:59,027 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 19:31:43,551 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:31:43,584 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:31:43,590 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\customer-service\customer-service\src\test\resources
+2025-08-10 19:33:39,284 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:33:39,291 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:33:39,293 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 19:34:10,256 [Worker-83: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:hotel-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\pom.xml.
+2025-08-10 19:34:11,256 [Worker-83: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier  to /booking-service/target/classes
+2025-08-10 19:34:11,327 [Worker-83: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier  to /booking-service/target/classes
+2025-08-10 19:34:12,166 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:34:12,166 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:34:12,171 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 19:34:12,172 [Worker-83: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hotel-service
+2025-08-10 19:34:12,172 [Worker-83: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hotel-service
+2025-08-10 19:34:13,122 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:34:13,142 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:34:13,146 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 19:34:55,127 [Worker-86: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 19:34:55,330 [Worker-86: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 19:34:55,549 [Worker-86: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 19:35:55,273 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:35:55,280 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:35:55,283 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 19:36:12,596 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:36:12,601 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:36:12,603 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 19:36:41,948 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:36:41,948 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:36:41,948 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 19:37:47,801 [Worker-84: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:room-service:0.0.1-SNAPSHOT @ C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\pom.xml.
+2025-08-10 19:37:48,992 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:37:48,993 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:37:48,999 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 19:37:49,918 [Worker-84: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of room-service
+2025-08-10 19:37:49,919 [Worker-84: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for room-service
+2025-08-10 19:37:51,134 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 19:37:51,149 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 19:37:51,153 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 19:39:18,093 [Worker-84: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 19:39:18,299 [Worker-84: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 19:39:18,500 [Worker-84: Launching HotelServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/booking-service: com.example:booking-service:0.0.1-SNAPSHOT with classifier null to /booking-service/target/classes
+2025-08-10 20:02:44,158 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 20:02:44,169 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 20:02:44,173 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 20:03:59,399 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 20:03:59,406 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 20:03:59,410 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 20:05:21,512 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 20:05:21,520 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 20:05:21,524 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 20:08:06,379 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 20:08:06,385 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 20:08:06,387 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 20:08:51,412 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 20:08:51,419 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 20:08:51,422 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\hotel-service\src\test\resources
+2025-08-10 20:09:03,471 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 20:09:03,478 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 20:09:03,482 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 20:10:00,507 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 20:10:00,513 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 20:10:00,515 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 20:11:19,013 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 20:11:19,020 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 20:11:19,022 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\room-service\src\test\resources
+2025-08-10 20:35:39,575 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 20:35:39,605 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 20:35:39,608 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources
+2025-08-10 20:38:53,394 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-10 20:38:53,401 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-10 20:38:53,403 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yuva pdtr\Desktop\Wipro Assignments\MicroServices HotelBooking\booking-service\booking-service\src\test\resources

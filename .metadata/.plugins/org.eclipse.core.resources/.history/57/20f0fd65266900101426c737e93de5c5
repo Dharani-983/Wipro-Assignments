@@ -1,0 +1,78 @@
+package com.demo.client;
+
+import java.util.List;
+import java.util.Scanner;
+
+import com.demo.model.Department;
+
+public class ClientApp {
+	private static Scanner sc = new Scanner(System.in);
+	private static DeapertmentService service = new DeaprtmentServiceImpl();
+	public static void main(String[] args) {
+		System.out.println("1. Add Department: ");
+		System.out.println("2. Get Department by Id: ");
+		System.out.println("3. Get all Deaprtments: ");
+		System.out.println("4. Update Department");
+		System.out.println("5. Delete Department By Id:");
+		System.out.println("6. Exit");
+		int choice= sc.nextInt();
+		sc.nextLine();
+		switch(choice) {
+		case 1:
+			addDepartment();
+			break;
+		case 2: 
+			searchById();
+			break;
+		case 3:
+			displayDepartments();
+			break;
+		case 4: 
+			updateDepartment();
+			break;
+		case 5:
+			deleteById();
+			break;
+		case 6:
+			System.exit(choice);
+			break;
+		default:
+			System.out.println("Invalid Input.");
+			break;
+		}	
+	}
+	public static void addDepartment() {
+		System.out.println("Enter Department Id:");
+		Department dept = new Department();
+		dept.setDeptId(sc.nextInt());
+		sc.nextLine();
+		System.out.println("Enter Department Name:");
+		dept.setDeptName(sc.nextLine());
+		System.out.println("Enter department Loaction:");
+		dept.setdeptLocation(sc.nextLine());
+		service.addDepartment(dept);
+		System.out.println("Department with id" +dept.getDeptId()+" added successfully");
+	}
+	
+	public static void searchById() {
+		List<Department> departments = service.getdepartment();
+		for(Department department: departments) {
+			System.out.println(department);
+		}
+		
+	}
+	public static void displayDepartments() {
+		
+		
+	}
+	public static void updateDepartment() {
+		
+		
+	}
+	public static void deleteById() {
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+C:\Users\yuva pdtr\Desktop\class notes\Day 15\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1899831657.index
+1559857721.index
+2317501585.index
+4025061686.index
+1698827149.index
+63799375.index
+1118982603.index
+3504589078.index
+3916334769.index
+458338589.index

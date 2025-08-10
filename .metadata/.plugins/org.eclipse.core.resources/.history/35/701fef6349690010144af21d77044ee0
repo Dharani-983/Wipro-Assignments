@@ -1,0 +1,75 @@
+package com.demo.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.demo.exception.DepartmentException;
+import com.demo.model.Department;
+import com.demo.util.DbUtil;
+
+public class DepartmentDaoImpl implements DepartmentDao{
+	private Connection con = DbUtil.getConnection();
+	public List<Department> getDepartment() {
+		List<Department> departments=new ArrayList<Department>();
+		try {
+			Statement stat=con.createStatement();
+			ResultSet rs=stat.executeQuery("select * from department");
+			while(rs.next()) {
+				Department dept=new Department();
+				dept.setDeptId(rs.getInt(1));
+				dept.setDeptName(rs.getString(2));
+				dept.setdeptLocation(rs.getString(3));
+				departments.add(dept);
+			}
+			
+		} catch (SQLException e) {
+			throw new DepartmentException(e.getMessage());
+		}
+		
+		return departments;
+	}
+	@Override
+	public int addDepartment(Department department){
+		int rowsAffected=0;
+		try {
+			PreparedStatement stat= con.prepareStatement("insert into Department values(?,?,?");
+			stat.setInt(1,department.getDeptId());
+			stat.setString(2, department.getDeptName());
+			stat.setString(3, department.getdeptLocation());
+			rowsAffected = stat.executeUpdate();
+		}catch(SQLException e) {
+			throw new DepartmentException(e.getMessage());
+		}
+		return rowsAffected;
+	}
+	@Override 
+	public int UpdateDepartment(Department department){
+		int rowsUpdated=0;
+		try {
+			PreparedStatement stat = con.prepareStatement("update department set name=? and location=? where id=?");
+			stat.setInt(1,department.getDeptId());
+			stat.setString(2, department.getDeptName());
+			stat.setString(3, department.getdeptLocation());
+			rowsUpdated=stat.executeUpdate();
+		}catch(SQLException e) {
+			throw new DepartmentException(e.getMessage());
+		}
+		return rowsUpdated;
+	}
+	@Override
+	public int DeleteById(Department department){
+		int rowDeleted=0;
+		try {
+			PreparedStatement stat= con.prepareStatement("Delete from department where id=?");
+			stat.setInt(1,department.getDeptId());
+			rowDeleted=stat.executeUpdate();
+		}catch(SQLException e) {
+			throw new DepartmentException(e.getMessage());
+		}
+	}
+}

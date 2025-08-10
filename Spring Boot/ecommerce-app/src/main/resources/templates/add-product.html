@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1> Welcome to Ecommerce App - Add Product</h1>
+
+<form action="/save-product" method="post" th:object="${product}" modelAttribute="${product}">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="pname"><b>Product Name</b></label> 
+    <input type="text" placeholder="Enter ProductName" name="pname" th:field="*{name}" required>
+	<br/>
+    <label for="price"><b>Price</b></label>
+    <input type="text" placeholder="Enter Price" name="price"  th:field="*{price}" required>
+	<br/>
+    <button type="submit">Add</button>
+  </div>
+</form>
+</body>
+</html>
