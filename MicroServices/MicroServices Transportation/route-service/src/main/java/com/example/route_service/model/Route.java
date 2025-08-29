@@ -1,25 +1,51 @@
 package com.example.route_service.model;
 
-import java.sql.Timestamp;
+
+import java.time.LocalDateTime;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.PrePersist;
+import jakarta.persistence.PreUpdate;
 
 @Entity
 public class Route {
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long routeId;
-	private String source;
-	private String destination;
-	private Double distanceKm;
-	private Integer estimatedDurationMin;
-	private List<String> stops;
-	private Timestamp createdAt;
-	private Timestamp updatedAt;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long routeId;
+
+    private String source;
+    private String destination;
+    private Double distanceKm;
+    private Integer estimatedDurationMin;
+
+    @ElementCollection
+    private List<String> stops;
+
+//    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss")
+    @JsonIgnore
+    private LocalDateTime createdAt;
+
+//    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss")
+    @JsonIgnore
+    private LocalDateTime updatedAt;
+
+    @PrePersist
+    public void onCreate() {
+        createdAt = LocalDateTime.now();
+        updatedAt = LocalDateTime.now(); // ✅ ensure not null
+    }
+
+    @PreUpdate
+    public void onUpdate() {
+        updatedAt = LocalDateTime.now();
+    }
 	public Long getRouteId() {
 		return routeId;
 	}
@@ -56,16 +82,16 @@ public class Route {
 	public void setStops(List<String> stops) {
 		this.stops = stops;
 	}
-	public Timestamp getCreatedAt() {
+	public LocalDateTime getCreatedAt() {
 		return createdAt;
 	}
-	public void setCreatedAt(Timestamp createdAt) {
+	public void setCreatedAt(LocalDateTime createdAt) {
 		this.createdAt = createdAt;
 	}
-	public Timestamp getUpdatedAt() {
+	public LocalDateTime getUpdatedAt() {
 		return updatedAt;
 	}
-	public void setUpdatedAt(Timestamp updatedAt) {
+	public void setUpdatedAt(LocalDateTime updatedAt) {
 		this.updatedAt = updatedAt;
 	}
 	@Override

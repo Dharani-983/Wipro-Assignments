@@ -3,6 +3,7 @@ package com.example.vehicle_service.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,6 +18,7 @@ import com.example.vehicle_service.service.VehicleService;
 
 @RestController
 @RequestMapping("/api/vehicles")
+@CrossOrigin("*")
 public class VehicleController {
 	@Autowired
 	VehicleService vehicleService;

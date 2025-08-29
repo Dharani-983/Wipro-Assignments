@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 @Entity
 public class Vehicle {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long vehicleId;
 	private String vehicleNumber;
 	private Integer capacity;

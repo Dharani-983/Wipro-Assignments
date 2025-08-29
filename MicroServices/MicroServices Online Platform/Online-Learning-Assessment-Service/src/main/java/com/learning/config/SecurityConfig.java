@@ -1,0 +1,82 @@
+package com.learning.config;
+
+
+import java.util.List;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
+import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.web.context.request.RequestAttributes;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
+import feign.RequestInterceptor;
+import feign.RequestTemplate;
+import jakarta.servlet.http.HttpServletRequest;
+
+@Configuration
+public class SecurityConfig {
+
+    @Bean
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        http
+        .cors().and()  // 👈 enable CORS
+        .csrf().disable()
+            .authorizeHttpRequests(auth -> auth
+               
+            	.requestMatchers("/actuator/**", "/eureka/**")
+            		.permitAll()
+                .requestMatchers(HttpMethod.GET, "/api/courses/**")
+                	.permitAll()
+                .requestMatchers(HttpMethod.POST, "/api/assessments/**")
+                    .permitAll()
+                .requestMatchers(HttpMethod.PUT, "/api/assessments/**")
+                    .permitAll()
+               
+                .requestMatchers(HttpMethod.DELETE, "/api/assessments/**")
+                    .permitAll()
+                .anyRequest().permitAll()
+            )
+            .httpBasic(Customizer.withDefaults());
+        return http.build();
+    }
+
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
+    @Bean
+    public CorsConfigurationSource corsConfigurationSource() {
+        CorsConfiguration configuration = new CorsConfiguration();
+        configuration.setAllowedOrigins(List.of("http://localhost:4200")); // not "*"
+        configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+        configuration.setAllowedHeaders(List.of("*"));
+        configuration.setAllowCredentials(true);
+
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/**", configuration);
+        return source;
+    }
+    @Bean
+    public RequestInterceptor requestInterceptor() {
+        return (RequestTemplate template) -> {
+            RequestAttributes requestAttributes = RequestContextHolder.getRequestAttributes();
+            if (requestAttributes instanceof ServletRequestAttributes) {
+                HttpServletRequest request = ((ServletRequestAttributes) requestAttributes).getRequest();
+                String authHeader = request.getHeader("Authorization");
+                if (authHeader != null) {
+                    template.header("Authorization", authHeader);
+                }
+            }
+        };
+    }
+}
+

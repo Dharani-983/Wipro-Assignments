@@ -1,0 +1,52 @@
+<h2>All Bookings</h2>
+
+<div *ngIf="errorMessage" style="color: red;">
+  {{ errorMessage }}
+</div>
+
+<div>
+  Total bookings: {{ bookings.length }}
+</div>
+
+<div *ngIf="!bookings.length && !errorMessage">
+  Loading 
+  ...
+</div>
+<input type="text"  [(ngModel)]="message" (change)="onChange()"  />
+
+<div *ngIf="bookings.length > 0" class="booking-list">
+  <div class="booking-header">
+    <strong>BOOKING_ID</strong>
+    <strong>CUSTOMER_NAME</strong>
+    <strong>CONTACT_NUMBER</strong>
+    <strong>ROUTE_ID</strong>
+    <strong>DRIVER_ID</strong>
+    <strong>BOOKING_STATUS</strong>
+    <strong>BOOKING_TIME</strong>
+    <strong>START_TIME</strong>
+    <strong>END_TIME</strong>
+    <strong>CREATED_AT</strong>
+    <strong>UPDATED_AT</strong>
+  </div>
+
+  <div *ngFor="let booking of bookings" class="booking-row">
+    <div>{{ booking.bookingId }}</div>
+    <div>{{ booking.customerName }}</div>
+    <div>{{ booking.contactNumber }}</div>
+    <div>{{ booking.routeId }}</div>
+    <div>{{ booking.driverId}}</div>
+    <div>{{ booking.vehicleId}}</div>
+    <div>{{ booking.bookingStatus}}</div>
+    <div>{{ booking.bookingTime }}</div>
+    <div>{{ booking.startTime}}</div>
+    <div>{{ booking.endTime}}</div>
+    <div>{{ booking.createdAt }}</div>
+    <div>{{ booking.updatedAt }}</div>
+    <div> <button (click)="editBooking(booking.bookingId)">Edit </button></div>
+     <div> <button (click)="deleteBooking(booking.bookingId)">Delete </button></div>
+  </div>
+</div>
+<br />
+<a href="/add-booking">Add Booking</a> |
+<a href="/">Back To Main Menu</a>
+

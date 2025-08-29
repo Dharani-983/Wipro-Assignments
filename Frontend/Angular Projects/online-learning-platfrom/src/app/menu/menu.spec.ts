@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { Menu } from './menu';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { provideZonelessChangeDetection } from '@angular/core';
 
 describe('Menu', () => {
   let component: Menu;
@@ -8,7 +10,8 @@ describe('Menu', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Menu]
+      imports: [Menu,HttpClientTestingModule],
+      providers:[provideZonelessChangeDetection()]
     })
     .compileComponents();
 

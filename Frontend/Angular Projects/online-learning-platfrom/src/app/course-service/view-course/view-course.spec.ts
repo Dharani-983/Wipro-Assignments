@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ViewCourse } from './view-course';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { provideZonelessChangeDetection } from '@angular/core';
 
 describe('ViewCourse', () => {
   let component: ViewCourse;
@@ -8,7 +10,8 @@ describe('ViewCourse', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ViewCourse]
+      imports: [ViewCourse,HttpClientTestingModule],
+      providers:[provideZonelessChangeDetection()]
     })
     .compileComponents();
 

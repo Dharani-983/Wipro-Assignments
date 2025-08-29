@@ -1,0 +1,44 @@
+<h2>All Vehicles</h2>
+
+<div *ngIf="errorMessage" style="color: red;">
+  {{ errorMessage }}
+</div>
+
+<div>
+  Total vehicles: {{ vehicles.length }}
+</div>
+
+<div *ngIf="!vehicles.length && !errorMessage">
+  Loading 
+  ...
+</div>
+<input type="text"  [(ngModel)]="message" (change)="onChange()"  />
+
+<div *ngIf="vehicles.length > 0" class="vehicle-list">
+  <div class="vehicle-header">
+    <strong>VEHICLE_ID</strong>
+    <strong>VEHICLE_NUMBER</strong>
+    <strong>CAPACITY</strong>
+    <strong>VEHICLE_TYPE</strong>
+    <strong>VEHICLE_STATUS</strong>
+    <strong>CREATED_AT</strong>
+    <strong>UPDATED_AT</strong>
+  </div>
+
+  <div *ngFor="let vehicle of vehicles" class="vehicle-row">
+    <div>{{ vehicle.vehicleId }}</div>
+    <div>{{ vehicle.vehicleNumber }}</div>
+    <div>{{ vehicle.capacity }}</div>
+    <div>{{ vehicle.vehicleType }}</div>
+    <div>{{ vehicle.vehicleStatus }}</div>
+    <div>{{ vehicle.createdAt }}</div>
+    <div>{{ vehicle.updatedAt }}</div>
+    <div> <button (click)="editVehicle(vehicle.vehicleId)">Edit </button></div>
+     <div> <button (click)="deleteVehicle(vehicle.vehicleId)">Delete </button></div>
+  </div>
+</div>
+
+<br />
+
+<a href="/add-vehicle">Add Vehicle</a> |
+<a href="/">Back To Main Menu</a>

@@ -1,0 +1,23 @@
+<h2>Edit Route</h2>
+  <form>
+      <label>Route Id</label>
+      <input type="text" name="routeId" id="routeId" placeholder="Enter your routeId"  [(ngModel)]="routeModel.routeId"> <br>
+      <label>Source</label>
+      <input type="text" name="source" id="source" [(ngModel)]="routeModel.source"> <br>
+      <label>Destination</label>
+      <input type="text" name="destination" id="destination" [(ngModel)]="routeModel.destination"><br>
+       <label>Distance_Km</label>
+      <input type="number" name="distanceKm" id="distanceKm" [(ngModel)]="routeModel.distanceKm"> <br>
+      <label>Estimated Duration Min</label>
+      <input type="number" name="estimatedDurationMin" id="estimatedDurationMin" [(ngModel)]="routeModel.estimatedDurationMin"> <br>
+      <label>Stops</label>
+      <input type="text" name="stops" id="stops" [(ngModel)]="routeModel.stops"> <br>
+      <label>Created At</label>
+      <input type="datetime-local" name="createdAt" id="createdAt" [(ngModel)]="routeModel.createdAt"> <br>
+      <label>Updated At</label>
+      <input type="datetime-local" name="updatedAt" id="updatedAt" [(ngModel)]="routeModel.updatedAt"> <br>
+<br/> <br/>
+    <button type="submit" name="submit" id="submit" (click)="onSubmit()">Update </button> &nbsp; &nbsp;
+    <button type="reset" name="reset" id="reset" value="Reset">Reset</button>
+  </form>
+

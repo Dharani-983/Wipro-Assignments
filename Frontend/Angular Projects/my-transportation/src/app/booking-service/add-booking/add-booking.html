@@ -1,0 +1,40 @@
+
+<div>
+    <h1>Add Booking</h1>
+  <form>
+      <label>Customer Name</label>
+      <input type="text" name="customerName" id="customerName" [(ngModel)]="booking.customerName"> <br>
+      <label>Contact Number</label>
+      <input type="text" name="contactNumber" id="contactNumber" [(ngModel)]="booking.contactNumber"><br>
+       <label>Route Id</label>
+      <input type="number" name="routeId" id="routeId" [(ngModel)]="booking.routeId"> <br>
+      <label>Vehicle Id</label>
+      <input type="number" name="vehicleId" id="vehicleId" [(ngModel)]="booking.vehicleId"><br>
+      <label>Driver Id</label>
+      <input type="number" name="driverId" id="driverId" [(ngModel)]="booking.driverId"><br>
+      <label>Booking Status</label>
+      <select [(ngModel)]="booking.bookingStatus" name="bookingStatus">
+        <option [value]="bookingStatus.PENDING">PENDING</option>
+        <option [value]="bookingStatus.CONFIRMED">CONFIRMED</option>
+        <option [value]="bookingStatus.CANCELLED">CANCELLED</option>
+        <option [value]="bookingStatus.COMPLETED">COMPLETED</option>
+      </select>
+      <label>Booking Time</label>
+      <input type="datetime-local" name="bookingTime" id="bookingTime" [(ngModel)]="booking.bookingTime"><br>
+      <label>Start Time</label>
+      <input type="datetime-local" name="startTime" id="startTime" [(ngModel)]="booking.startTime"><br>
+      <label>End Time</label>
+      <input type="datetime-local" name="endTime" id="endTime" [(ngModel)]="booking.endTime"><br>
+      <label>Created At</label>
+      <input type="datetime-local" name="createdAt" id="createdAt" [(ngModel)]="booking.createdAt"> <br>
+      <label>Updated At</label>
+      <input type="datetime-local" name="updatedAt" id="updatedAt" [(ngModel)]="booking.updatedAt"> <br>
+<br/> <br/>
+    <button type="submit" name="submit" id="submit" (click)="onSubmit()">Add</button> &nbsp; &nbsp;
+    <button type="reset" name="reset" id="reset" value="Reset">Reset</button>
+  </form>
+    <p>{{message}}</p>
+    <button><a href="/booking">Back to Booking Menu</a></button><br>
+    <button><a href="">Back To Main Menu</a></button>
+</div>
+

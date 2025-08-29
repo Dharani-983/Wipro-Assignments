@@ -1,0 +1,47 @@
+<h2>All Routess</h2>
+
+<div *ngIf="errorMessage" style="color: red;">
+  {{ errorMessage }}
+</div>
+
+<div>
+  Total routes: {{ routes.length }}
+</div>
+
+<div *ngIf="!routes.length && !errorMessage">
+  Loading 
+  ...
+</div>
+<input type="text"  [(ngModel)]="message" (change)="onChange()"  />
+
+<div *ngIf="routes.length > 0" class="route-list">
+  <div class="route-header">
+    <strong>ROUTE_ID</strong>
+    <strong>SOURCE</strong>
+    <strong>DESTINATION</strong>
+    <strong>DISTANCE_KM</strong>
+    <strong>ESTIMATION_DURATION_MIN</strong>
+    <strong>STOPS</strong>
+    <strong>CREATED_AT</strong>
+    <strong>UPDATED_AT</strong>
+  </div>
+
+  <div *ngFor="let route of routes" class="route-row">
+    <div>{{ route.routeId }}</div>
+    <div>{{ route.source }}</div>
+    <div>{{ route.destination }}</div>
+    <div>{{ route.distanceKm }}</div>
+    <div>{{ route.estimatedDurationMin}}</div>
+    <div>{{ route.stops}}</div>
+    <div>{{ route.createdAt }}</div>
+    <div>{{ route.updatedAt }}</div>
+    <div> <button (click)="editRoute(route.routeId)">Edit </button></div>
+     <div> <button (click)="deleteRoute(route.routeId)">Delete </button></div>
+  </div>
+</div>
+
+<br />
+
+<a href="/add-route">Add Route</a> |
+<a href="/">Back To Main Menu</a>
+

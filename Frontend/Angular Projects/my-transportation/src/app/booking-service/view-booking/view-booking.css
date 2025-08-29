@@ -1,0 +1,120 @@
+h2 {
+  text-align: center;
+  font-size: 26px;
+  color: #2d6cdf;
+  margin-bottom: 20px;
+}
+
+.booking-list {
+  display: grid;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.booking-header,
+.booking-row {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr); /* 11 data + 2 buttons */
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.booking-header {
+  background-color: #2d6cdf;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.booking-row {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.booking-row:hover {
+  background-color: #eef4ff;
+  transform: scale(1.01);
+}
+
+.booking-row div {
+  text-align: center;
+  font-size: 14px;
+  padding: 6px;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:first-of-type {
+  background-color: #4caf50; /* Edit - green */
+  color: white;
+  margin-right: 4px;
+}
+
+button:first-of-type:hover {
+  background-color: #43a047;
+}
+
+button:last-of-type {
+  background-color: #f44336; /* Delete - red */
+  color: white;
+}
+
+button:last-of-type:hover {
+  background-color: #e53935;
+}
+
+a {
+  text-decoration: none;
+  color: #2d6cdf;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input[type="text"] {
+  max-width: 300px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #2d6cdf;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .booking-header,
+  .booking-row {
+    grid-template-columns: repeat(5, 1fr); /* wrap columns on smaller screens */
+    grid-auto-rows: minmax(40px, auto);
+  }
+  .booking-row div {
+    font-size: 13px;
+  }
+  input[type="text"] {
+    width: 100%;
+  }
+}

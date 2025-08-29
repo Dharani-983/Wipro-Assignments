@@ -1,6 +1,8 @@
 package com.example.driver_service.model;
 
-import java.sql.Timestamp;
+import java.time.LocalDateTime;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -18,8 +20,10 @@ public class Driver {
 	private String email;
 	private AvailabilityStatus availabilityStatus;
 	private Long vehicleId;
-	private Timestamp createdAt;
-	private Timestamp updatedAt;
+	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	private LocalDateTime createdAt;
+	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	private LocalDateTime updatedAt;
 	public Long getDriverId() {
 		return driverId;
 	}
@@ -56,16 +60,16 @@ public class Driver {
 	public void setVehicleId(Long vehicleId) {
 		this.vehicleId = vehicleId;
 	}
-	public Timestamp getCreatedAt() {
+	public LocalDateTime getCreatedAt() {
 		return createdAt;
 	}
-	public void setCreatedAt(Timestamp createdAt) {
+	public void setCreatedAt(LocalDateTime createdAt) {
 		this.createdAt = createdAt;
 	}
-	public Timestamp getUpdatedAt() {
+	public LocalDateTime getUpdatedAt() {
 		return updatedAt;
 	}
-	public void setUpdatedAt(Timestamp updatedAt) {
+	public void setUpdatedAt(LocalDateTime updatedAt) {
 		this.updatedAt = updatedAt;
 	}
 	public AvailabilityStatus getAvailabilityStatus() {

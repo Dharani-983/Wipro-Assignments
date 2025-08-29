@@ -23,3 +23,12 @@ export interface Classroom{
     capacity:number,
     type:string
 }
+
+export interface Assessment{
+    id?:number,
+    title:string,
+    description:string,
+    totalMarks:number,
+    deadline:string,
+    createdAt:string
+}

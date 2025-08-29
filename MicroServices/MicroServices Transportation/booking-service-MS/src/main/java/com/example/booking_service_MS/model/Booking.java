@@ -1,6 +1,8 @@
 package com.example.booking_service_MS.model;
 
-import java.sql.Timestamp;
+import java.time.LocalDateTime;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -18,11 +20,16 @@ public class Booking {
 	private Long vehicleId;
 	private Long driverId;
 	private BookingStatus bookingStatus;
-	private Timestamp bookingTime;
-	private Timestamp startTime;
-	private Timestamp endTime;
-	private Timestamp createdAt;
-	private Timestamp updatedAt;
+	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	private LocalDateTime bookingTime;
+	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	private LocalDateTime startTime;
+	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	private LocalDateTime endTime;
+	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	private LocalDateTime createdAt;
+	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	private LocalDateTime updatedAt;
 	public Long getBookingId() {
 		return bookingId;
 	}
@@ -59,34 +66,34 @@ public class Booking {
 	public void setDriverId(Long driverId) {
 		this.driverId = driverId;
 	}
-	public Timestamp getBookingTime() {
+	public LocalDateTime getBookingTime() {
 		return bookingTime;
 	}
-	public void setBookingTime(Timestamp bookingTime) {
+	public void setBookingTime(LocalDateTime bookingTime) {
 		this.bookingTime = bookingTime;
 	}
-	public Timestamp getStartTime() {
+	public LocalDateTime getStartTime() {
 		return startTime;
 	}
-	public void setStartTime(Timestamp startTime) {
+	public void setStartTime(LocalDateTime startTime) {
 		this.startTime = startTime;
 	}
-	public Timestamp getEndTime() {
+	public LocalDateTime getEndTime() {
 		return endTime;
 	}
-	public void setEndTime(Timestamp endTime) {
+	public void setEndTime(LocalDateTime endTime) {
 		this.endTime = endTime;
 	}
-	public Timestamp getCreatedAt() {
+	public LocalDateTime getCreatedAt() {
 		return createdAt;
 	}
-	public void setCreatedAt(Timestamp createdAt) {
+	public void setCreatedAt(LocalDateTime createdAt) {
 		this.createdAt = createdAt;
 	}
-	public Timestamp getUpdatedAt() {
+	public LocalDateTime getUpdatedAt() {
 		return updatedAt;
 	}
-	public void setUpdatedAt(Timestamp updatedAt) {
+	public void setUpdatedAt(LocalDateTime updatedAt) {
 		this.updatedAt = updatedAt;
 	}
 	public BookingStatus getBookingStatus() {

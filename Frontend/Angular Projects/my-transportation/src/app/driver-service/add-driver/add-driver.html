@@ -1,0 +1,28 @@
+<div>
+    <h1>Add Driver</h1>
+  <form>
+      <label>Name</label>
+      <input type="text" name="name" id="name" [(ngModel)]="driver.name"> <br>
+      <label>License Number</label>
+      <input type="text" name="licenseNumber" id="licenseNumber" [(ngModel)]="driver.licenseNumber"><br>
+       <label>Phone Number</label>
+      <input type="text" name="phoneNumber" id="phoneNumber" [(ngModel)]="driver.phoneNumber"> <br>
+      <label>Email</label>
+      <input type="email" name="email" id="email" [(ngModel)]="driver.email"><br>
+      <label>Availability Status</label>
+      <input type="text" name="availabilityStatus" id="availabilityStatus" [(ngModel)]="driver.availabilityStatus"> <br>
+      <label>Vehicle Id</label>
+      <input type="text" name="vehicleId" id="vehicleId" [(ngModel)]="driver.vehicleId"><br>
+      <label>Created At</label>
+      <input type="datetime-local" name="createdAt" id="createdAt" [(ngModel)]="driver.createdAt"> <br>
+      <label>Updated At</label>
+      <input type="datetime-local" name="updatedAt" id="updatedAt" [(ngModel)]="driver.updatedAt"> <br>
+<br/> <br/>
+    <button type="submit" name="submit" id="submit" (click)="onSubmit()">Add </button> &nbsp; &nbsp;
+    <button type="reset" name="reset" id="reset" value="Reset">Reset</button>
+</form>
+    <p>{{message}}</p>
+    <button><a href="/driver">Back to Vehicle Menu</a></button><br>
+    <button><a href="">Back To Main Menu</a></button>
+</div>
+

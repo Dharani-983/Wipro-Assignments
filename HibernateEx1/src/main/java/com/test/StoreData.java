@@ -8,7 +8,8 @@ import org.hibernate.cfg.Configuration;
 public class StoreData {
 	public static void main(String[] args) {
 		Configuration cfg = new Configuration();
-		cfg.configure("hibernate.clg.xml");
+		cfg.configure("hibernate.cl"
+				+ "g.xml");
 		SessionFactory sf = cfg.buildSessionFactory();
 		Session session = sf.openSession();
 		Transaction t = session.beginTransaction();

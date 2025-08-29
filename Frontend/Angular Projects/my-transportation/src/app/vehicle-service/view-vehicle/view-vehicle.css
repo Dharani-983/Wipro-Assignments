@@ -1,0 +1,92 @@
+.vehicle-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header row */
+.vehicle-header {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  font-weight: bold;
+  background: #0077b6;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+/* Vehicle rows */
+.vehicle-row {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  align-items: center;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.vehicle-row:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Buttons */
+.vehicle-row button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.vehicle-row button:first-child {
+  background: #00b4d8;
+  color: white;
+}
+
+.vehicle-row button:first-child:hover {
+  background: #0096c7;
+  transform: scale(1.05);
+}
+
+.vehicle-row button:last-child {
+  background: #e63946;
+  color: white;
+}
+
+.vehicle-row button:last-child:hover {
+  background: #d62828;
+  transform: scale(1.05);
+}
+
+/* Input */
+input[type="text"] {
+  padding: 10px;
+  margin: 12px 0;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #0077b6;
+  box-shadow: 0 0 4px rgba(0, 119, 182, 0.4);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #0077b6;
+  font-weight: 500;
+  margin: 0 8px;
+}
+
+a:hover {
+  text-decoration: underline;
+}

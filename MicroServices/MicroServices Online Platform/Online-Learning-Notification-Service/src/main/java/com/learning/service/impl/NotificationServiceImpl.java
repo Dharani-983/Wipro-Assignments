@@ -1,0 +1,72 @@
+package com.learning.service.impl;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.learning.dto.NotificationRequest;
+import com.learning.dto.NotificationResponse;
+import com.learning.exception.ResourceNotFoundException;
+import com.learning.model.Notification;
+import com.learning.repository.NotificationRepository;
+import com.learning.service.NotificationService;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class NotificationServiceImpl implements NotificationService{
+	
+	@Autowired
+	NotificationRepository repository;
+	
+    @Autowired
+	ModelMapper mapper;
+
+    @Override
+    public NotificationResponse createNotification(NotificationRequest request) {
+        Notification notification = new Notification();
+        notification.setUserId(request.getUserId()); 
+        notification.setTitle(request.getTitle());
+        notification.setMessage(request.getMessage());
+        notification.setRead(false);
+
+        return mapper.map(repository.save(notification), NotificationResponse.class);
+    }
+
+    @Override
+    public List<NotificationResponse> getNotificationsByUser(Long userId) {
+        return repository.findByUserId(userId)
+                .stream()
+                .map(n -> mapper.map(n, NotificationResponse.class))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public NotificationResponse markAsRead(Long notificationId) {
+        Notification notification = repository.findById(notificationId)
+                .orElseThrow(() -> new ResourceNotFoundException("Notification not found"));
+        notification.setRead(true);
+        return mapper.map(repository.save(notification), NotificationResponse.class);
+    }
+
+    @Override
+    public void deleteNotification(Long notificationId) {
+        if (!repository.existsById(notificationId)) {
+            throw new ResourceNotFoundException("Notification not found");
+        }
+        repository.deleteById(notificationId);
+    }
+
+    @Override
+    public List<NotificationResponse> getAllNotifications() {
+        return repository.findAll()
+                .stream()
+                .map(n -> mapper.map(n, NotificationResponse.class))
+                .collect(Collectors.toList());
+    }
+
+}

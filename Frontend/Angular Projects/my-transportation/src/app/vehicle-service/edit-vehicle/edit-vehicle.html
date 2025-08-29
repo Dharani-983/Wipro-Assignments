@@ -1,0 +1,20 @@
+<h2>Edit Vehicle</h2>
+  <form>
+      <label>Vehicle Id</label>
+      <input type="text" name="vehicleId" id="vehicleId" placeholder="Enter your vehicleId"  [(ngModel)]="vehicle.vehicleId"> <br>
+      <label>Vehicle Number</label>
+      <input type="text" name="vehicleNumber" id="vehicleNumber" [(ngModel)]="vehicle.vehicleNumber"> <br>
+      <label>Capacity</label>
+      <input type="number" name="capacity" id="capacity" [(ngModel)]="vehicle.capacity"><br>
+       <label>Vehicle Type</label>
+      <input type="text" name="vehicleType" id="vehicleType" [(ngModel)]="vehicle.vehicleType"> <br>
+      <label>Vehicle Status</label>
+      <input type="text" name="vehicleStatus" id="vehicleStatus" [(ngModel)]="vehicle.vehicleStatus"> <br>
+      <label>Created At</label>
+      <input type="datetime-local" name="createdAt" id="createdAt" [(ngModel)]="vehicle.createdAt"> <br>
+      <label>Updated At</label>
+      <input type="datetime-local" name="updatedAt" id="updatedAt" [(ngModel)]="vehicle.updatedAt"> <br>
+<br/> <br/>
+    <button type="submit" name="submit" id="submit" (click)="onSubmit()">Update </button> &nbsp; &nbsp;
+    <button type="reset" name="reset" id="reset" value="Reset">Reset</button>
+  </form>

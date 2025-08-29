@@ -1,5 +1,5 @@
 import { TestBed } from '@angular/core/testing';
-import { Courseservice } from './userservice';
+import { Courseservice } from './course-service';
 
 describe('Courseservice', () => {
   let service:Courseservice;

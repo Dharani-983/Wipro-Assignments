@@ -9,6 +9,9 @@ import { EditCourse } from './course-service/edit-course/edit-course';
 import { ViewClassroom } from './classroom-service/view-classroom/view-classroom';
 import { AddClassroom } from './classroom-service/add-classroom/add-classroom';
 import { EditClassroom } from './classroom-service/edit-classroom/edit-classroom';
+import { ViewAssessment } from './assessment-service/view-assessment/view-assessment';
+import { AddAssessment } from './assessment-service/add-assessment/add-assessment';
+import { EditAssessment } from './assessment-service/edit-assessment/edit-assessment';
 
 export const routes: Routes = [
     {path:'', component:Menu},
@@ -24,5 +27,10 @@ export const routes: Routes = [
     //Classroom Routes
     {path:'classroom', component:ViewClassroom},
     {path:'add-classroom', component:AddClassroom},
-    {path:'edit-classroom/:id', component:EditClassroom}
+    {path:'edit-classroom/:id', component:EditClassroom},
+
+    //Assessment Routes
+    {path:'assessments', component:ViewAssessment},
+    { path: 'courses/:id/add-assessment', component: AddAssessment },
+    {path:'edit-assessment/:id', component:EditAssessment}
 ];

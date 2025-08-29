@@ -1,0 +1,83 @@
+h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2d3748; /* dark gray */
+}
+
+.route-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.route-header, .route-row {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 8 fields + 2 buttons */
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.route-header {
+  background: #2b6cb0; /* blue */
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.route-row {
+  background: #f7fafc; /* light gray */
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.route-row:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #4299e1;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #2b6cb0;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+a {
+  text-decoration: none;
+  color: #2b6cb0;
+  font-weight: 500;
+  margin: 0 0.5rem;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #1a365d;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 1rem;
+}

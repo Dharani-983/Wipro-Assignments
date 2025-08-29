@@ -1,0 +1,32 @@
+<h2>Edit Booking</h2>
+  <form>
+      <label>Booking Id</label>
+      <input type="number" name="bookingId" id="bookingId" placeholder="Enter your bookingId"  [(ngModel)]="booking.bookingId"> <br>
+      <label>Customer Name</label>
+      <input type="text" name="customerName" id="customerName" [(ngModel)]="booking.customerName"> <br>
+      <label>Contact Number</label>
+      <input type="text" name="contactNumber" id="contactNumber" [(ngModel)]="booking.contactNumber"><br>
+       <label>Route Id</label>
+      <input type="number" name="routeId" id="routeId" [(ngModel)]="booking.routeId"> <br>
+      <label>Vehicle Id</label>
+      <input type="number" name="vehicleId" id="vehicleId" [(ngModel)]="booking.vehicleId"><br>
+      <label>Driver Id</label>
+      <input type="number" name="driverId" id="driverId" [(ngModel)]="booking.driverId"><br>
+      <label>Booking Status</label>
+      <input type="text" name="bookingStatus" id="bookingStatus" [(ngModel)]="booking.bookingStatus"> <br>
+      <label>Booking Time</label>
+      <input type="datetime-local" name="bookingTime" id="bookingTime" [(ngModel)]="booking.bookingTime"><br>
+      <label>Start Time</label>
+      <input type="datetime-local" name="startTime" id="startTime" [(ngModel)]="booking.startTime"><br>
+      <label>End Time</label>
+      <input type="datetime-local" name="endTime" id="endTime" [(ngModel)]="booking.endTime"><br>
+      <label>Created At</label>
+      <input type="datetime-local" name="createdAt" id="createdAt" [(ngModel)]="booking.createdAt"> <br>
+      <label>Updated At</label>
+      <input type="datetime-local" name="updatedAt" id="updatedAt" [(ngModel)]="booking.updatedAt"> <br>
+<br/> <br/>
+    <button type="submit" name="submit" id="submit" (click)="onSubmit()">Update </button> &nbsp; &nbsp;
+    <button type="reset" name="reset" id="reset" value="Reset">Reset</button>
+  </form>
+
+
